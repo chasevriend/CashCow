@@ -8,7 +8,18 @@
     <title>CashCow</title>
 </head>
 <body>
-    <h1>CashCow</h1>
+    <div class="header">
+        <h1>CashCow</h1>
+        <p>Your one stop shop for personal finance</p>
+        <label>Monthy Income</label><br>
+        <input type="number" min="1" required id="income-el"><br>
+        <label>Monthly Expenses</label><br>
+        <input type="number" min="1" required id="expense-el"><br>
+    </div>
+    <div class="data">
+        <p>Monthly Savings:</p>
+        <p id="monthly-savings"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
